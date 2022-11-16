@@ -10,7 +10,7 @@ const { getRandomValues } = require('crypto')
 const { json } = require('body-parser')
 app.use(cors())
 
-url = "https://en.wikipedia.org/wiki/Key_events_of_the_20th_century#Information_and_communications_technology"
+url = "https://en.wikipedia.org/wiki/Timeline_of_the_20th_century"
 
 find_key_events(url)
 
@@ -21,12 +21,20 @@ async function find_key_events(url) {
       const html = response.data 
       const $ = cheerio.load(html)
 
-      $ ('.mw-headline', html).each( function (index, x ){
+      $("h3, ul, li").each( function (index, x ){
         const event = {}
-        event.name = $(x).text()
+        if ($(x).prop('tagName') === "H3") {
+          event.h3 = $(x).text()
+        } 
+        if ($(x).prop('tagName') === "LI")  {
+          event.li = $(x).text()
+        }
+        if ($(x).prop('tagName') === "A")  {
+          event.li = $(x).text()
+        }
         events.push(event)
       })
     })
 
-  fs.writeFileSync("keyEventsWikipedia", JSON.stringify(events))
+  fs.writeFileSync("timeline20", JSON.stringify(events))
 }
