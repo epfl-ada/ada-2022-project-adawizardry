@@ -21,7 +21,7 @@ async function find_key_events(url) {
       const html = response.data 
       const $ = cheerio.load(html)
 
-      $ ('*', html).each( function (index, x ){
+      $("h3, ul, li").each( function (index, x ){
         const event = {}
         if ($(x).prop('tagName') === "H3") {
           event.h3 = $(x).text()
@@ -36,5 +36,5 @@ async function find_key_events(url) {
       })
     })
 
-  fs.writeFileSync("timelines20", JSON.stringify(events))
+  fs.writeFileSync("timeline20", JSON.stringify(events))
 }
