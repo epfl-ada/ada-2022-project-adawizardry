@@ -39,7 +39,11 @@ The primary dataset will be the Movie Summary Corpus dataset from Carnegie Mello
   For question (2) 
  
 ### References
+
 [1] https://en.wikipedia.org/wiki/Film
+
 [2] https://en.wikipedia.org/wiki/Timeline_of_the_20th_century
+
 [3] https://www.historyonthenet.com/20th-century-timeline
+
 [4] https://en.wikipedia.org/wiki/[events]
