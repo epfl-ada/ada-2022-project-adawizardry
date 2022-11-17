@@ -134,3 +134,6 @@ ui-tests/playwright-report
 
 # RTC
 .jupyter_ystore.db
+
+.npy
+doc2vec_model
