@@ -46,7 +46,8 @@ The analysis for concluding if an event has a significant effect on a specific g
 1. Counting if there is a significant change in frequency before and after the event using a p-test.
 2. See if the event has a high average similarity to the movies conducted in the p-test.
 
-The reasoning goes: A
+The reasoning goes:
+
 Assume we will see a significant increase in the frequency of war movies after world war II. This conclusion is reasonable since the event is connected to the genre. However, if we only look at the frequency of a particular genre, we might draw the same conclusion for a quite adjoint event like Apollo 13. The logical reasoning rejects that Apollo 13 affected the frequency of war movies since the events do not reminisce about war. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre. Apollo 13 will have a lower average cosine similarity than World War 2. Thus World war 2 affected war movie frequency and not Apollo 13. The same reasoning can go with events of the same type. Then we calculate which event has the most considerable similarity to the plot summaries and conclude that the highest one is the difference maker
 
  
