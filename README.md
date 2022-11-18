@@ -9,22 +9,24 @@ This is the opening sentence for the Wikipedia article on Films. Movies are an e
  ---
 ### Research Questions
 
-In this analysis we intend to answer the general question of **How have the movie industry changed throughout history?**, which itself can be divided in to several sub-questions. In the list below these are ordered by priority and how closely connected the sub-question is to the main one:
+In this analysis we intend to answer the general question of **How have the movie industry changed throughout history?**, which itself can be divided in to several sub-questions. In the list below these are ordered by priority.
 
 #### How have the movie industry changed throughout history?
->   -     Which genres have been most popular over time? / How many movies were produced by genre each year?
->   -     Do historcal events affect the kind of movies afterwards? (E.g., are there more spy movies after the Cold War?)
->   -     If and how are historical events reflected in subsequent movie plots? 
->   -     How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
->    -    How long does it take for a trend in movies to die?
->    -    How does people's interest of movie change throughout time since an historical event
+>   - Which genres have become more or less popular over time?
+>   - Do historical events affect the kind of movies afterwards? (E.g., are there more spy movies after the Cold War?)
+>   - If and how are historical events reflected in subsequent movie plots? 
+>   - How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
+>   - How long does it take for a trend in movies to die?
+>   - How do people's interest of of an historical event change throughout time.
+>   - How does the characteristics of genres change of time?
+>   - How does movie complexity change of time?
+
 
  ---
  
 ### Datasets
 
-The primary dataset will be the Movie Summary Corpus dataset from Carnegie Mellon University. This dataset contains movie metadata, character metadata, and plot summaries. This dataset will be used when investigating both proposed research questions from above. 
-  For question (1), we want to compare the movie dataset with some real-world historical events. We intend to use Wikipedia to get the data we need. What we need is: (a) some historical events and their time (the year they occurred) and (b) some words that characterize the historical event (ex. war, revolution, concert). To get (a) and (b) we can go for two routes. Either scrape a Wikipedia timeline article for the 20th and 21st century [2] and then use the Wikidata Items for each event to classify what type of event this is. There is an attribute in Wikidata Items called “instance of” which is suitable for this. If this path causes us trouble, for instance if the size of all this data is too large, we switch to choosing a few historical events ourselves. Currently, we have used [3] for this approach, and complemented it with Wikipedia pages of each event described in the article.
+To answer some of the above questions, we need information of real-world historical events. We intend to use Wikipedia to get the data we need. What we need is: (a) some historical events and their time (the year they occurred) and (b) some words that characterize the historical event (ex. war, revolution, concert). To get (a) and (b) we can go for two routes. The first one is to scrape a Wikipedia timeline article for the 20th and 21st century [2]. If this path causes us trouble, for instance if the size of all this data is too large, we switch to choosing a few historical events ourselves [3]. For the current pipeline, we are using the latter approach and complemented it with Wikipedia pages of each event described in the article.
   
   
 ### Analysis method
@@ -36,7 +38,7 @@ The analysis for concluding if an event has a significant effect on a specific g
 
 The reasoning goes:
 
-Assume we will see a significant increase in the frequency of war movies after world war II. This conclusion is reasonable since the event is connected to the genre. However, if we only look at the frequency of a particular genre, we might draw the same conclusion for a quite adjoint event like Apollo 13. The logical reasoning rejects that Apollo 13 affected the frequency of war movies since the events do not reminisce about war. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre. Apollo 13 will have a lower average cosine similarity to the plot summaries than World War 2. Thus World war 2 affected war movie frequency and not Apollo 13. The same reasoning can go with events of the same type. Then we calculate which event has the most considerable similarity to the plot summaries and conclude that the highest one is the difference maker.
+Assume we will see a significant increase in the frequency of war movies after world war II. This conclusion is reasonable since the event is connected to the genre. However, if we only look at the frequency of a particular genre, we might draw the same conclusion for a quite adjoint event like Apollo 13. The logical reasoning rejects that Apollo 13 affected the frequency of war movies since the events do not reminisce about war. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre. Apollo 13 will have a lower average cosine similarity to the plot summaries than World War 2. Thus World war 2 affected war movie frequency and not Apollo 13. We could also see if there is a significant change in the similarities using a p-test. The same reasoning can go with events of the same type. Then we calculate which event has the most considerable similarity to the plot summaries and conclude that the highest one is the difference maker.
 
 
 ### Timeline
