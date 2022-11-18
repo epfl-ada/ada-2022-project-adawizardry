@@ -30,16 +30,26 @@ To answer some of the above questions, we need information of real-world histori
   
   
 ### Analysis method
+<img src="https://user-images.githubusercontent.com/47889649/202763197-7f739258-7569-480e-840c-737960747d76.png" width="500">
 
-<img src="https://user-images.githubusercontent.com/47889649/202760974-01fc684b-0ae9-4f35-a803-7cf35a65356b.png" width="500">
+For question 2- 3, to find out if an historical event affects the movies made subsequently, we follow the 2 steps below:
 
-The analysis for concluding if an event has a significant effect on a specific genre goes into two steps:
-1. Counting if there is a significant change in frequency before and after the event using a p-test.
-2. See if the event has a high average similarity to the movies conducted in the p-test.
+1. We associate each historical event with each genre, and select the combinations with significant p-tests.
+
+2. Based on the combinations selected in step 1, we do a similarity analysis on the wikipedia summary of the event and the plot summaries belonging to this genre. 
 
 The reasoning goes:
+For example, our hypothesis might be: we will see a significant increase in the number of war movies after world war II. However, if we only look at the frequency of a particular genre before and after 1939, we might draw the same conclusion for events that happened around the same time, like the founding of McDonald’s in 1940. But this is clearly wrong. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre.McDonald’s will have a lower average cosine similarity to the plot summaries than World War 2. Thus World war 2 affected war movie frequency and not McDonald’s. We could also see if there is a significant change in the similarities using a p-test. The same reasoning can go with events of the same type. Then we calculate which event has the highest similarity to the plot summaries and conclude that the highest one is the trigger event.
 
-Assume we will see a significant increase in the frequency of war movies after world war II. This conclusion is reasonable since the event is connected to the genre. However, if we only look at the frequency of a particular genre, we might draw the same conclusion for a quite adjoint event like Apollo 13. The logical reasoning rejects that Apollo 13 affected the frequency of war movies since the events do not reminisce about war. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre. Apollo 13 will have a lower average cosine similarity to the plot summaries than World War 2. Thus World war 2 affected war movie frequency and not Apollo 13. We could also see if there is a significant change in the similarities using a p-test. The same reasoning can go with events of the same type. Then we calculate which event has the most considerable similarity to the plot summaries and conclude that the highest one is the difference maker.
+For question 4,, we can analyze the occurrence of movies that have a similarity score higher than a predetermined threshold (e.g. similarity score > 0.85). This way we can determine the time lag between the event’s date and the peak interest of this event by movie makers. For example, we can say that X number of films about Chernobyl were made Y years after 1986.
+
+For question 5, we will use the same data as question 4, but in this question we also need to define when a movie trend “dies”, or if it dies at all. 
+
+For question 6, We can answer the question about how the characteristics of a genre changes with time by analyzing plot summaries. With NLP-methods we can extract keywords from the plot summaries with and compare which keywords define a genre over time. 
+
+For question 7, we will use character data and metadata to look at overall trends of the movies. We can look at the movie length, number of characters, number of female or minority actors. 
+
+
 
 
 ### Timeline
