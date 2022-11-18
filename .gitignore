@@ -137,3 +137,6 @@ ui-tests/playwright-report
 
 .npy
 doc2vec_model
+doc2vec_model.dv.vectors.npy
+doc2vec_model.syn1neg.npy
+doc2vec_model.wv.vectors.npy
