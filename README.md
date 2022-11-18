@@ -17,7 +17,6 @@ In this analysis we intend to answer the general question of **How have the movi
 >   1. If and how are historical events reflected in subsequent movie plots? 
 >   1. How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
 >   1. How long does it take for a trend in movies to die?
->   1. How do people's interest of of an historical event change throughout time.
 >   1. How does the characteristics of genres change of time?
 >   1. How does movie complexity change of time?
 
