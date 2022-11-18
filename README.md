@@ -29,7 +29,6 @@ To answer some of the above questions, we need information on real-world histori
   
   
 ### Analysis method
-<img src="https://user-images.githubusercontent.com/47889649/202763197-7f739258-7569-480e-840c-737960747d76.png" width="500">
 
 For question 2- 3, to find out if an historical event affects the movies made subsequently, we follow the 2 steps below:
 
@@ -37,7 +36,9 @@ For question 2- 3, to find out if an historical event affects the movies made su
 
 2. Based on the combinations selected in step 1, we do a similarity analysis on the wikipedia summary of the event and the plot summaries belonging to this genre. 
 
-The reasoning goes:
+<img src="https://user-images.githubusercontent.com/47889649/202763197-7f739258-7569-480e-840c-737960747d76.png" width="500">
+
+The reasoning goes (shown in the graph above):  
 For example, our hypothesis might be: we will see a significant increase in the number of war movies after world war II. However, if we only look at the frequency of a particular genre before and after 1939, we might draw the same conclusion for events that happened around the same time, like the founding of McDonald’s in 1940. But this is clearly wrong. To reject this conclusion in a data-driven manner, we use Doc2Vec and Cosine similarity between the description of an event and the plot summaries for movies of that genre.McDonald’s will have a lower average cosine similarity to the plot summaries than World War 2. Thus World war 2 affected war movie frequency and not McDonald’s. We could also see if there is a significant change in the similarities using a p-test. The same reasoning can go with events of the same type. Then we calculate which event has the highest similarity to the plot summaries and conclude that the highest one is the trigger event.
 
 For question 4, we can analyze the occurrence of movies that have a similarity score higher than a predetermined threshold (e.g. similarity score > 0.85). This way, we can determine the time lag between the event’s date and the peak interest of this event by movie makers. For example, we can say that X number of films about Chernobyl was made Y years after 1986.
