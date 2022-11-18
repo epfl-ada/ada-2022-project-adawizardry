@@ -2,34 +2,23 @@
 
 ### Abstract
 
-*A film […] is a work of art that simulates experiences and otherwise communicates ideas, stories, perceptions, feelings, beauty, or atmosphere through the motion of pictures* [1]. This is the opening sentence for the Wikipedia article on Films. Movies are an essential part of culture and are something that affects our ideas, choices and perceptions of each other. In this data science project, the purpose is to grasp how movies and reality are intertwined. Our aim is to understand how films are changing through time and what part real-world events play in this. An aspect of the real world which without a doubt is influencing movies is the rapidly advancing technology. With better technology comes some obvious advantages such as the ability to do more complex simulations or anti-aging skilled actors. On the other hand, there is a risk of losing the essence of the grand words stipulated in the first sentence of the Wikipedia article. Therefore, we will also investigate if films are getting better. 
+*"A film […] is a work of art that simulates experiences and otherwise communicates ideas, stories, perceptions, feelings, beauty, or atmosphere through the motion of pictures*" [1].
+
+This is the opening sentence for the Wikipedia article on Films. Movies are an essential part of culture and are something that affects our ideas, choices and perceptions of each other. In this data science project, the purpose is to grasp how movies and reality are intertwined. Our aim is to understand how films are changing through time and what part real-world events play in this. An aspect of the real world which without a doubt is influencing movies is the rapidly advancing technology. With better technology comes some obvious advantages such as the ability to do more complex simulations or anti-aging skilled actors. On the other hand, there is a risk of losing the essence of the grand words stipulated in the first sentence of the Wikipedia article. Therefore, we will also investigate if films are getting better. 
  
  ---
 ### Research Questions
 
-In this analysis, we intend to answer two main questions, which can be divided into several sub-questions. The two main questions are:
- 
-1.     How do historical events affect movies?
-2.     Do movies get worse over time?
- 
-#### How do historical events affect movies?
-Sub-questions:
+In this analysis we intend to answer the general question of **How have the movie industry changed throughout history?**, which itself can be divided in to several sub-questions. In the list below these are ordered by priority and how closely connected the sub-question is to the main one:
 
-    1.     Which genres have been most popular over time? / How many movies were produced by genre each year?
-    2.     Which historical events are commonly mentioned in movie plot summaries?
-    3.     Is it a statistically significant rise in the usage of certain words or genres after a particular event?
-    4.     How long is the latency between the event and the trends in the movies?
-    5.     How long does it take for a trend in movies to die?
- 
-#### Do movies get worse over time?
-Sub-questions:
+#### How have the movie industry changed throughout history?
+>   -     Which genres have been most popular over time? / How many movies were produced by genre each year?
+>   -     Do historcal events affect the kind of movies afterwards? (E.g., are there more spy movies after the Cold War?)
+>   -     If and how are historical events reflected in subsequent movie plots? 
+>   -     How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
+>    -    How long does it take for a trend in movies to die?
+>    -    How does people's interest of movie change throughout time since an historical event
 
-    1.     When were the best movies created (according to IMDb)?
-    2.     When were we watching movies most frequently?
-    3.     Which movies have the highest box-office revenue and when were they created?
-    4.     Are the best movies rating-wise the ones which generate the most revenue?
-    5.     Find an explanation in the data for the observations above.
- 
  ---
  
 ### Datasets
