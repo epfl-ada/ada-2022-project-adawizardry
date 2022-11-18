@@ -57,8 +57,7 @@ Assume we will see a significant increase in the frequency of war movies after w
 * **week 50+:** Start working on data story and presentation.
 
 ###  Organization within the team:
-TODO
-
+The group's workload has been distributed equally among the team members, and no one has been assigned a specific type of task. We mostly sit together, allowing good communication and discussions about which tasks need to be done. When we have agreed on the subsequent tasks, we divide them by who is most comfortable with it. Since this workflow methodology has worked quite well for this task, we will work similarly for the next milestone.
  
 ### References
 
