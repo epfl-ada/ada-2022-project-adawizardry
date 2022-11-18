@@ -12,14 +12,14 @@ This is the opening sentence for the Wikipedia article on Films. Movies are an e
 In this analysis we intend to answer the general question of **How have the movie industry changed throughout history?**, which itself can be divided in to several sub-questions. In the list below these are ordered by priority.
 
 #### How have the movie industry changed throughout history?
->   - Which genres have become more or less popular over time?
->   - Do historical events affect the kind of movies afterwards? (E.g., are there more spy movies after the Cold War?)
->   - If and how are historical events reflected in subsequent movie plots? 
->   - How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
->   - How long does it take for a trend in movies to die?
->   - How do people's interest of of an historical event change throughout time.
->   - How does the characteristics of genres change of time?
->   - How does movie complexity change of time?
+>   1. Which genres have become more or less popular over time?
+>   1. Do historical events affect the kind of movies afterwards? (E.g., are there more spy movies after the Cold War?)
+>   1. If and how are historical events reflected in subsequent movie plots? 
+>   1. How long is the latency between the event and the peak representations of that event? (E.g., most holocaust movies are made XX years after the event)
+>   1. How long does it take for a trend in movies to die?
+>   1. How do people's interest of of an historical event change throughout time.
+>   1. How does the characteristics of genres change of time?
+>   1. How does movie complexity change of time?
 
 
  ---
@@ -31,7 +31,8 @@ To answer some of the above questions, we need information of real-world histori
   
 ### Analysis method
 
-![namnlös](https://user-images.githubusercontent.com/47889649/202481067-33475dfd-48f7-4a12-a0b0-c977f74eafbe.png)
+<img src="https://user-images.githubusercontent.com/47889649/202760974-01fc684b-0ae9-4f35-a803-7cf35a65356b.png" width="500">
+
 The analysis for concluding if an event has a significant effect on a specific genre goes into two steps:
 1. Counting if there is a significant change in frequency before and after the event using a p-test.
 2. See if the event has a high average similarity to the movies conducted in the p-test.
