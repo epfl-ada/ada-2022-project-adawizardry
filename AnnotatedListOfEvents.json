@@ -2,173 +2,173 @@
         "events" : [{
                 "name":"The Second Boer War",
                 "date":"1899-1902",
-                "link":"https://en.wikipedia.org/wiki/Second_Boer_War"
+                "link":"Second_Boer_War"
                 },
                 {
                 "name":"Albert Einstein's formulation of special relativity",
                 "date":"1905",
-                "link":"https://en.wikipedia.org/wiki/Theory_of_relativity"
+                "link":"Theory_of_relativity"
                 },
 
                 {
                 "name":"The Wright Brothers And The Airplane",
                 "date":"1909",
-                "link":"https://en.wikipedia.org/wiki/Wright_brothers"
+                "link":"Wright_brothers"
                 },
                 {
                 "name":"Titanic",
                 "date":"1912",
-                "link":"https://en.wikipedia.org/wiki/Titanic"
+                "link":"Titanic"
                 },
                 {
                 "name":"World War I",
                 "date":"1914-1918",
-                "link":"https://en.wikipedia.org/wiki/World_War_I"
+                "link":"World_War_I"
                 },
                 {
                 "name":"Sinking of the Lusitania",
                 "date":"1915",
-                "link":"https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania"
+                "link":"Sinking_of_the_RMS_Lusitania"
                 },
                 {
                 "name":"The Russian Revolution",
                 "date":"1917-1923",
-                "link":"https://en.wikipedia.org/wiki/Russian_Revolution"
+                "link":"Russian_Revolution"
                 },
                 {
                 "name":"The League Of Nations Is Established",
                 "date":"1920",
-                "link":"https://en.wikipedia.org/wiki/League_of_Nations"
+                "link":"League_of_Nations"
                 },
                 {
                 "name":"Adolf Hitler Becomes Führer Of The Nazi Party",
                 "date":"1921",
-                "link":"https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power#:~:text=Hitler's%20rise%20to%20power%20was,became%20the%20F%C3%BChrer%20of%20Germany."
+                "link":"Adolf_Hitler%27s_rise_to_power"
                 },
                 {
                 "name":"Pearl Harbor",
                 "date":"1941",
-                "link":"https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+                "link":"Attack_on_Pearl_Harbor"
                 },
                 {
                 "name":"Atomic Bombing Of Hiroshima And Nagasaki",
                 "date":"1945",
-                "link":"https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+                "link":"Atomic_bombings_of_Hiroshima_and_Nagasaki"
                 },
                 {
                 "name":"The Truman Doctrine Is Announced",
                 "date":"1947",
-                "link":"https://en.wikipedia.org/wiki/Truman_Doctrine"
+                "link":"Truman_Doctrine"
                 },
                 {
                 "name":"The Cold War begins",
                 "date":"1947",
-                "link":"https://en.wikipedia.org/wiki/Cold_War"
+                "link":"Cold_War"
                 },
                 {
                 "name":"The Marshall Plan Is Implemented To Assist Post-War Europe",
                 "date":"1948",
-                "link":"https://en.wikipedia.org/wiki/Marshall_Plan"
+                "link":"Marshall_Plan"
                 },
                 {               
                 "name":"The Korean War",
                 "date":"1950-1953",
-                "link":"https://en.wikipedia.org/wiki/Korean_War"
+                "link":"Korean_War"
                 },
                 {               
                 "name":"Brown v. Board of Education of Topeka",
                 "date":"1954",
-                "link":"https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
+                "link":"Brown_v._Board_of_Education"
                 },
                 {               
                 "name":"The Warsaw Pact Is Signed",
                 "date":"1955",
-                "link":"https://en.wikipedia.org/wiki/Warsaw_Pact"
+                "link":"Warsaw_Pact"
                 },
                 {               
                 "name":"The Hungarian Revolution Starts",
                 "date":"1956",
-                "link":"https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956"
+                "link":"Hungarian_Revolution_of_1956"
                 },
                 {               
                 "name":"Sputnik Is Launched",
                 "date":"1957",
-                "link":"https://en.wikipedia.org/wiki/Sputnik_2"
+                "link":"Sputnik_2"
                 },
                 {               
                 "name":"China Begins The Great Leap Forward",
                 "date":"1958",
-                "link":"https://en.wikipedia.org/wiki/Great_Leap_Forward"
+                "link":"Great_Leap_Forward"
                 },
                 {               
                 "name":"The Vietnam War begins",
                 "date":"1959-1975",
-                "link":"https://en.wikipedia.org/wiki/Vietnam_War"
+                "link":"Vietnam_War"
                 },
                 {               
                 "name":"Construction Begins On The Berlin Wall",
                 "date":"1961",
-                "link":"https://en.wikipedia.org/wiki/Berlin_Wall"
+                "link":"Berlin_Wall"
                 },
                 {               
                 "name":"President Kennedy Is Assassinated",
                 "date":"1963",
-                "link":"https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+                "link":"Assassination_of_John_F._Kennedy"
                 },
                 {               
                 "name":"Civil Rights Act Is Passed",
                 "date":"1964",
-                "link":"https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
+                "link":"Civil_Rights_Act_of_1964"
                 },
                 {               
                 "name":"Winston Churchill Dies",
                 "date":"1965",
-                "link":"https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Winston_Churchill"
+                "link":"Death_and_state_funeral_of_Winston_Churchill"
                 },
                 {               
                 "name":"Apollo 11",
                 "date":"1969",
-                "link":"https://en.wikipedia.org/wiki/Apollo_11"
+                "link":"Apollo_11"
                 },
                 {               
                 "name":"Apollo 13",
                 "date":"1970",
-                "link":"https://en.wikipedia.org/wiki/Apollo_13"
+                "link":"Apollo_13"
                 },
                 {               
                 "name":"The Iranian Revolution Happens",
                 "date":"1979",
-                "link":"https://en.wikipedia.org/wiki/Iranian_Revolution#:~:text=Iranian%20people%20voted%20in%20a,it%20created%20throughout%20the%20world."
+                "link":"Iranian_Revolution#:~:text=Iranian%20people%20voted%20in%20a,it%20created%20throughout%20the%20world."
                 },
                 {               
                 "name":"John Hinckley Jr Attempts To Assassinate Reagan",
                 "date":"1980",
-                "link":"https://en.wikipedia.org/wiki/Attempted_assassination_of_Ronald_Reagan#:~:text=On%20March%2030%2C%201981%2C%20President,engagement%20at%20the%20Washington%20Hilton."
+                "link":"Attempted_assassination_of_Ronald_Reagan#:~:text=On%20March%2030%2C%201981%2C%20President,engagement%20at%20the%20Washington%20Hilton."
                 },
                 {               
                 "name":"The War In The Falkland Islands Begins",
-                "date":"",
-                "link":"https://en.wikipedia.org/wiki/Falklands_War"
+                "date":"1982",
+                "link":"Falklands_War"
                 },
                 {               
                 "name":"Stanislav Petrov Saves The World By Doing Nothing",
                 "date":"1983",
-                "link":"https://en.wikipedia.org/wiki/Stanislav_Petrov"
+                "link":"Stanislav_Petrov"
                 },
                 {               
                 "name":"The Berlin Wall Falls",
                 "date":"1989",
-                "link":"https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+                "link":"Fall_of_the_Berlin_Wall"
                 },
                 {               
                 "name":"Nelson Mandela Is Released From Prison",
                 "date":"1990",
-                "link":"https://en.wikipedia.org/wiki/Nelson_Mandela"
+                "link":"Nelson_Mandela"
                 },
                 {               
                 "name":"Apartheid Ends",
                 "date":"1994",
-                "link":"https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa"
+                "link":"Negotiations_to_end_apartheid_in_South_Africa"
                 }
                 ]
 }
