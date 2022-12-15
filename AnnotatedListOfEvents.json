@@ -1,50 +1,5 @@
 {
-        "events" : [{
-                "name":"The Second Boer War",
-                "date":"1899-1902",
-                "link":"Second_Boer_War"
-                },
-                {
-                "name":"Albert Einstein's formulation of special relativity",
-                "date":"1905",
-                "link":"Theory_of_relativity"
-                },
-
-                {
-                "name":"The Wright Brothers And The Airplane",
-                "date":"1909",
-                "link":"Wright_brothers"
-                },
-                {
-                "name":"Titanic",
-                "date":"1912",
-                "link":"Titanic"
-                },
-                {
-                "name":"World War I",
-                "date":"1914-1918",
-                "link":"World_War_I"
-                },
-                {
-                "name":"Sinking of the Lusitania",
-                "date":"1915",
-                "link":"Sinking_of_the_RMS_Lusitania"
-                },
-                {
-                "name":"The Russian Revolution",
-                "date":"1917-1923",
-                "link":"Russian_Revolution"
-                },
-                {
-                "name":"The League Of Nations Is Established",
-                "date":"1920",
-                "link":"League_of_Nations"
-                },
-                {
-                "name":"Adolf Hitler Becomes Führer Of The Nazi Party",
-                "date":"1921",
-                "link":"Adolf_Hitler%27s_rise_to_power"
-                },
+        "events" : [
                 {
                 "name":"Pearl Harbor",
                 "date":"1941",
