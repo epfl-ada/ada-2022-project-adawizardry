@@ -28,9 +28,12 @@ The entire project notebook is available in `main.ipynb`.
 The data story is available at [https://tiger-pillow.github.io/ada_final/](https://tiger-pillow.github.io/ada_final/).
 
 ### Team Distribution:
-Axel Andersson:
+Axel Andersson: data cleaning, data analysis (Part 2 in the notebook), data story 
+
 Yiyuan Gladys Fang:
+
 Leo Westerberg:
+
 Joel Rudsberg: data cleaning, NLP text pre-processing, doc2vec, latency, data story 
 
 ### References
