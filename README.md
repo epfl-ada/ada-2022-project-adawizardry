@@ -32,7 +32,7 @@ Axel Andersson: data cleaning, data analysis (Part 2 in the notebook), data stor
 
 Yiyuan Gladys Fang:
 
-Leo Westerberg: Data cleaning, doc2vec, part 2 or data analysis, data story
+Leo Westerberg: Data cleaning, doc2vec, data analysis (Part 2 in the notebook), data story
 
 Joel Rudsberg: data cleaning, NLP text pre-processing, doc2vec, latency, data story 
 
