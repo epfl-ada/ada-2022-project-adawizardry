@@ -30,7 +30,7 @@ The data story is available at [https://tiger-pillow.github.io/ada_final/](https
 ### Team Distribution:
 Axel Andersson: data cleaning, data analysis (Part 2 in the notebook), data story 
 
-Yiyuan Gladys Fang:
+Yiyuan Gladys Fang: Data cleaning, data analysis(genres & sentiment analysis), data story
 
 Leo Westerberg: Data cleaning, doc2vec, data analysis (Part 2 in the notebook), data story
 
